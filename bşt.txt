@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="navbar">
+
+            <div class="nav">
+                <ul>
+                    <li><a href=""><img src="download (1).png" alt=""></a></li>
+                    <li><a href="">Əsas</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Haqqınızda</a></li>
+                    <li><a href="">Əlaqə</a></li>
+                    <li><a href="">Tarixcə</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="textt">
+        <h2>Beşiktaş</h2>
+
+    </div>
+    <h1 id="txt1">İdman Malları</h1>
+
+    <div>
+     
+
+            <section>
+
+                <div class="cards">
+
+
+                    <div class="card">
+                        <img src="download (2).jpeg" alt="">
+                        <p>PUMA</p>
+                        <hr>
+
+                        <p class="price">4000$</p>
+
+                        <p><button>Səbətə at</button></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="download (2).jpeg" alt="" >
+                        <p>PUMA</p>
+                        <hr>
+
+                        <p class="price">4000$</p>
+
+                        <p><button>Səbətə at</button></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="download (2).jpeg" alt="" >
+                        <p>PUMA</p>
+                        <hr>
+
+                        <p class="price">4000$</p>
+
+                        <p><button>Səbətə at</button></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="download (2).jpeg" alt="" >
+                        <p>PUMA</p>
+                        <hr>
+
+                        <p class="price">4000$</p>
+
+                        <p><button>Səbətə at</button></p>
+                    </div>
+                    <div class="card">
+                        <img src="download (2).jpeg" alt="">
+                        <p>PUMA</p>
+                        <hr>
+
+                        <p class="price">4000$</p>
+
+                        <p><button>Səbətə at</button></p>
+                    </div>
+                    <div class="card">
+                        <img src="download (2).jpeg" alt="" >
+                        <p>PUMA</p>
+                        <hr>
+
+                        <p class="price">4000$</p>
+
+                        <p><button>Səbətə at</button></p>
+                    </div>
+                    <div class="card">
+                        <img src="download (2).jpeg" alt="">
+                        <p>PUMA</p>
+                        <hr>
+
+                        <p class="price">4000$</p>
+
+                        <p><button>Səbətə at</button></p>
+                    </div>
+                    <div class="card">
+                        <img src="download (2).jpeg" alt="">
+                        <p>PUMA</p>
+                        <hr>
+
+                        <p class="price">4000$</p>
+
+                        <p><button>Səbətə at</button></p>
+                    </div>
+
+
+
+
+
+            </section>
+
+      
+    </div>
+
+
+    </div>
+
+</body>
+
+</html>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+header {
+    background-color: rgb(66, 62, 62);
+    width: 1540px;
+    height: 100px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+
+    
+}
+.nav ,img{
+    width: 80px;
+    height: 80px;
+}
+
+.nav ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: 20px;
+   
+   
+
+}
+
+a{
+    color: inherit;
+}
+ul li a{
+    color: aliceblue;
+}
+
+.textt{
+background: url("besiktas.jpg");
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.textt{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 4px 2px #ed0505;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+    margin: auto;
+    text-align:center;
+    width: 22%;
+    gap: 10px;
+    object-fit: cover;
+    background-color: rgba(61, 63, 62, 0.693);
+
+  }
+
+
+#txt1{
+    text-align: center;
+    
+    
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 40px;
+}
+ button{
+    border-radius: 30px;
+    width: 70px;
+    height: 25px;
+ }
+ button:hover{
+    background-color: rgb(56, 54, 54);
+    color: white;
+    
+ }
+
+.card img{
+    width: 300px;
+    height: 300px;
+}
+.card p{
+    font-weight: bold;
+}
